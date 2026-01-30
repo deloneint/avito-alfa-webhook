@@ -17,7 +17,7 @@ const WEBHOOK_SECRET = "my_super_secret_1102_2";
 const { GoogleSpreadsheet } = require('google-spreadsheet');
 // Считываем креды из переменной окружения Render (настроим ниже)
 const creds = JSON.parse(process.env.GOOGLE_CREDENTIALS || "{}");
-const SPREADSHEET_ID = "1SI5MxQ_-NcDRSjZvIKYEcAVgcnT2tTJxYujT33BmQOw"; 
+const SPREADSHEET_ID = "1aX8xp2kNMHwsZ8NscY9cru3vpQCby790PZDtPtaqMnA"; 
 
 // ==========================================
 // ГЛОБАЛЬНЫЕ ПЕРЕМЕННЫЕ
