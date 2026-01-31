@@ -179,7 +179,7 @@ async function sendToSheet(data) {
     const linkFormula = `=HYPERLINK("${data.chat_link}"; "Открыть чат")`;
 
     const row = [
-        new Date().toLocaleString('ru-RU'),
+        new Date().toLocaleString('ru-RU', {timeZone: 'Europe/Moscow'}),
         data.vacancy_name,       // Название вакансии
         data.vacancy_address,     // Адрес вакансии
         data.applicant_name,      // Имя
